@@ -1,0 +1,176 @@
+@media only screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        padding: 1rem 0rem;
+    }
+
+    html {
+        font-size: 55%;
+    }
+
+    ul {
+        margin-top: 0.5rem;
+    }
+
+    .con-3 {
+        width: 100%;
+        padding: 3rem 3rem 0rem 3rem;
+        text-align: center;
+    }
+
+    .ad-p-1 {
+        text-align: left;
+    }
+
+    .con-5,
+    .con-6 {
+        display: block;
+    }
+
+    .school_img {
+        width: 45px;
+    }
+
+    .des,
+    .btn {
+        margin-top: 2rem;
+    }
+
+    .btn-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ps-ad {
+        margin: 2rem auto;
+    }
+
+    .devs {
+        display: none;
+    }
+
+    li {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .link_no_dec {
+        margin: 7px 12px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .link_no_dec::after,
+    .link_no_dec::before {
+        transition: 2s;
+        display: block;
+        content: "";
+        height: 0.3rem;
+        background-color: rgb(255, 0, 43);
+        position: absolute;
+    }
+
+    .link_no_dec::before {
+        top: -0.2rem
+    }
+
+    .link_no_dec::after {
+        bottom: -0.2rem
+    }
+
+    .link_no_dec:hover::after,
+    .link_no_dec:hover::before {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 52%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section:nth-child(2) {
+        flex-wrap: wrap;
+    }
+
+    .circle {
+        margin: 1.5rem;
+        height: 15rem;
+        width: 15rem;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 1118px) {
+    .margin {
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1032px) {
+    .des-li {
+        width: 18rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .thir-des {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .margin {
+        margin-left: 0;
+    }
+
+    .des-li {
+        width: 30rem;
+    }
+
+    .four-des {
+        flex-direction: column;
+    }
+
+    h3 {
+        margin: 3rem 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    footer{
+        font-size: 55%;
+        padding:auto 0;
+    }
+    .foot-h1{
+        align-self: center;
+        font-size: 4.2em;
+    }
+}
+@media only screen and (max-width: 600px){
+    footer{
+        font-size: 42%;
+        padding: 2rem 1rem;
+    }
+    .foot-h1{
+        font-size: 4em;
+        margin-right: 1rem;
+    }
+    input{
+        padding: 0.6em;
+        margin: 0 0.5em;
+        width: 16em;
+    }
+    input:placeholder-shown {
+        font-size: 2.6em;
+        margin-right: 1rem;
+    }
+}
