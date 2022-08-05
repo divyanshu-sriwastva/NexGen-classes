@@ -46,9 +46,6 @@ html {
 
 .fir-des {
     display: flex;
-    background: #ffffc4;
-    position: relative;
-    z-index: -5;
 }
 
 .con-1 {
@@ -384,7 +381,7 @@ input:placeholder-shown {
     padding: 0.4em 2em;
     background-color: #0271ff;
     border: 0.15em solid #000;
-    margin-top: 1.5em;
+    margin: 2em;
     color: #fff;
     font-size: 3em;
     letter-spacing: 0.085em;
@@ -399,8 +396,6 @@ input:placeholder-shown {
 }
 
 .icons {
-    margin: 3rem 0;
-    margin-bottom: 0;
     display: flex;
     justify-content: center;
 }

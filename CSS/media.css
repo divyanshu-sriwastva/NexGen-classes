@@ -162,7 +162,7 @@
     }
     .foot-h1{
         font-size: 4em;
-        margin-right: 1rem;
+        margin-right: 0.7rem;
     }
     input{
         padding: 0.6em;
@@ -172,5 +172,9 @@
     input:placeholder-shown {
         font-size: 2.6em;
         margin-right: 1rem;
+    }
+    .h1{
+        font-size: 4rem;
+        line-height: 5rem;
     }
 }
