@@ -1,3 +1,6 @@
+
+/* Starting navbar section */
+
 nav {
     box-shadow: 0px 0px 1.1rem -4px gray;
     padding: 0.5rem 2rem;
@@ -18,7 +21,7 @@ body {
 }
 
 ::selection {
-    background-color: brown;
+    background-color: rgb(211, 136, 16);
 }
 
 .link_no_dec {
@@ -36,6 +39,13 @@ html {
 .nav_li {
     display: inline;
     list-style: none;
+}
+
+.i:hover,
+.foot-btn:hover,
+.buy:hover,
+.circle:hover {
+    opacity: 0.7;
 }
 
 .link_no_dec:hover {
@@ -189,12 +199,6 @@ section:nth-child(2) {
     background-color: rgba(255, 60, 0, 0.7);
 }
 
-.circle:hover {
-    background-color: transparent;
-    color: #000;
-    cursor: pointer;
-}
-
 .sec-circle {
     background-color: rgba(0, 110, 255, 0.7);
 }
@@ -235,7 +239,6 @@ section:nth-child(2) {
 .price-r {
     color: rgb(255, 0, 98);
     text-shadow: none;
-    margin-bottom: 1rem;
     font-size: 4rem;
 }
 
@@ -271,11 +274,6 @@ section:nth-child(2) {
     width: 100%;
 }
 
-.buy:hover {
-    background-color: transparent;
-    color: #000;
-}
-
 .four-des {
     display: flex;
     justify-content: center;
@@ -297,10 +295,6 @@ h3 {
     box-shadow: 0.2rem 0.5rem 1rem -0.11rem grey;
     font-weight: 600;
     transition: .2s;
-}
-
-h3:hover {
-    background-color: transparent;
 }
 
 .stu {
@@ -355,9 +349,11 @@ footer {
     border-radius: 1em;
     bottom: -.2em;
 }
-.credit{
+
+.credit {
     text-align: center;
 }
+
 .foot-form {
     display: flex;
     align-items: center;
@@ -390,10 +386,6 @@ input:placeholder-shown {
     cursor: pointer;
 }
 
-.foot-btn:hover {
-    background-color: transparent;
-    color: #000;
-}
 
 .icons {
     display: flex;
@@ -411,10 +403,6 @@ input:placeholder-shown {
     border: 0.2rem solid black;
 }
 
-.i:hover {
-    background-color: transparent;
-    color: #000;
-}
 
 footer li {
     list-style: none;
