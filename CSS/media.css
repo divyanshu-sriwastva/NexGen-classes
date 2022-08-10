@@ -155,12 +155,12 @@
 }
 @media only screen and (max-width: 600px){
     footer{
-        font-size: 38%;
-        padding: 2rem 1rem;
+        font-size: 35%;
+        padding: 1.8rem 1rem;
     }
     .foot-h1{
-        font-size: 4em;
-        margin-right: 0.8rem;
+        font-size: 3.5em;
+        margin-right: 0.5rem;
     }
     input{
         padding: 0.6em;
